@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    padding: 10px;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    background-color: #c5c7c775;
+}
+
+#topbanner{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ltb{
+    display: flex;
+    gap: 20px;
+}
+
+#ltb h3 {
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+#rtb{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#rtb i{
+    font-size: 20px;
+}
+
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 16px;
+    background-color: rgb(250, 247, 247);
+}
+
+#lnav{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+#lnav i{
+    font-size: 19px;
+}
+
+
+#cnav{
+
+    align-items: center;
+    gap: 25px;
+}
+
+#cnav a{
+    align-items: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#cnav button{
+    align-items: center;
+    padding: 8px 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 100px;
+    font-size: 10px;
+}
+
+#rnav{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+#rnav button{
+    padding: 8px 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 80px;
+    font-size: 10px;
+
+}
+
+#rnav i{
+    font-size: 20px;
+}
+
+#card{
+    margin-top: 5px;
+    position:relative;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    height: 60%;
+    background-image: url(https://images.unsplash.com/photo-1743710426934-89887ca897d8?q=80&w=1538&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    padding-top: 140px;
+    padding-left: 35px;
+}
+#logo i{
+    font-size: 40px;
+
+}
+#content{
+    display: flex;
+    justify-content: space-between;
+}
+#card h2{ position: relative;
+    top: 45%;
+    left: -72%;
+    font-size:50px;
+    font-weight: 500;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+#card h1{
+    position: relative;
+    right: -475px;
+    font-size: 80px ;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    text-shadow: white;
+    font-weight:-200;
+    transform: rotate(90deg);
+    font-weight: bold;
+    color: (255,255,255,0.2);
+    letter-spacing: 2px;
+
+}
+
+#bcard{
+    background-color:rgb(233, 231, 231);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 10px;
+    gap: 50px;
+    color: white;
+    height: 2rem;
+    position: relative;
+    top: 92%;
+    right: 200px;
+}
+
+#bcard a{
+    text-decoration: none;
+    color: black;
+    gap: 10px;
+}
+
+#middle{
+    color: rgb(3, 3, 3);
+    padding-bottom: 100px;
+    margin-top: 10px;
+    background-color: rgb(237, 241, 241);
+    display: flex;
+    justify-content: space-between;
+}
+#lmid{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+#lmid h5{
+    font-size: 15px;
+    letter-spacing: 1px;
+    font: weight 400px;
+}
+#lmid p{
+    margin-top: 20px;
+    font-size: 3.3rem;
+    line-height: 1.1;
+}
+
+#lmid h6{
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+#bmid{
+    gap: 70px;
+    display: flex;
+    margin-top: 150px;
+}
+
+#bmidtl h3{
+    font-weight: bold;
+}
+
+#bmidtl p{
+    font-size: 1rem;
+}
+
+#bmidtr p{
+    font-size: 1rem;
+}
+
+#bmidbl {
+    margin-top: 120px;
+    margin-left: -420px;
+}
+#bmidbl p{
+    font-size: 1rem;
+}
+
+#bmidbr i{
+    gap: 20px;
+    font-size: 25px;
+}
+#bmidbr{
+    margin-top: 120px;
+    margin-left: -15px;
+}
+
+
+#rmid{
+    margin: 50px;
+    margin-right: 90px;
+    padding: 80px;
+    line-height:;
+    background-color: #939494;
+    border-radius: 10px;
+    
+}
+
+
+#rmid h2{
+    margin-left: 5px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+#rmid P{
+    margin-left: 5px;
+    font-size: 1rem;
+
+}
+
+#rmid form{
+    
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+input{
+    margin: 20px 0;
+border: none;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+}
+
+#rmid button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    margin-left: 8px;
+    margin-top: 20px;
+}
+
+    
+    #map{
+        margin
+        width: 100%;
+    height: 300px;
+    margin: 20px auto;
+
+    
+}
+
+#map iframe{
+    padding-bottom: 20px;
+    border-radius: 20px;
+    border: solid;
+}
+
+#bottombar{
+    margin-top: 10px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+#bottombar h2{
+    margin-top:100px;
+    font-weight: 300;
+    font-size: 3rem;
+    background: linear-gradient(90deg,#ff7e5f,#1523ec);
+    -webkit-background-clip: text;
+-webkit-text-fill-color: transparent; 
+
+}
+
+#bottombar i{
+    font-size: 35px;
+    position: relative;
+    top: 110px;
+}
+
+#lbb{
+    position: relative;
+    left: 70%;
+    top: -150px;
+    line-height: 35px;
+}
+
+#lbb h3{
+    font-size: 2rem;
+}
